@@ -16,7 +16,7 @@ import yfinance as yf
 #from datetime import datetime
 
 
-msft = yf.download("msft", start="2020-01-01", end="2021-01-01")
+msft = yf.download("msft", start="2020-01-01", end="2024-01-01")
 dates=msft.index
 
 
