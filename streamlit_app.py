@@ -20,4 +20,4 @@ msft = yf.download("msft", start="2020-01-01", end="2024-01-01")
 dates=msft.index
 
 
-st.line_chart(msft['Close'])
+st.line_chart(msft['Close'],title='Close MSFT')
