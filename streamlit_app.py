@@ -22,6 +22,6 @@ msft = yf.download("msft", start="2020-01-01", end="2024-01-01")
 dates=msft.index
 
 chart=alt.Chart(msft)
-c=chart.markpoint()
+c=chart.mark_point()
 
-st.altair_chart(c)
+#st.altair_chart(c)
