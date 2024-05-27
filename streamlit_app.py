@@ -24,4 +24,4 @@ dates=msft.index
 chart=alt.Chart(msft)
 c=chart.mark_point()
 
-#st.altair_chart(c)
+st.altair_chart(c)
